@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84424F382121C59000C62DEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F372121C59000C62DEC /* AppDelegate.m */; };
+		84424F402121C59200C62DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84424F3F2121C59200C62DEC /* Assets.xcassets */; };
+		84424F432121C59200C62DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84424F412121C59200C62DEC /* LaunchScreen.storyboard */; };
+		84424F462121C59200C62DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F452121C59200C62DEC /* main.m */; };
+		84424F502121C59200C62DEC /* SnapChatTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F4F2121C59200C62DEC /* SnapChatTabbarTests.m */; };
+		84424F5B2121C59200C62DEC /* SnapChatTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F5A2121C59200C62DEC /* SnapChatTabbarUITests.m */; };
+		84424F6A2121C64E00C62DEC /* LWXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F682121C64D00C62DEC /* LWXMainViewController.m */; };
+		84424F772121C72100C62DEC /* PdMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F6E2121C72100C62DEC /* PdMainViewController.m */; };
+		84424F782121C72100C62DEC /* PdToolBarPostBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F722121C72100C62DEC /* PdToolBarPostBtn.m */; };
+		84424F792121C72100C62DEC /* PdMainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F742121C72100C62DEC /* PdMainTabBar.m */; };
+		84424F7A2121C72100C62DEC /* PdFirstPostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F762121C72100C62DEC /* PdFirstPostView.m */; };
+		84424F992121C77B00C62DEC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84424F7D2121C77B00C62DEC /* LICENSE */; };
+		84424F9A2121C77B00C62DEC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F802121C77B00C62DEC /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		84424F9B2121C77B00C62DEC /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F892121C77B00C62DEC /* ViewController+MASAdditions.m */; };
+		84424F9C2121C77B00C62DEC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F8D2121C77B00C62DEC /* MASCompositeConstraint.m */; };
+		84424F9D2121C77B00C62DEC /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F8E2121C77B00C62DEC /* MASConstraintMaker.m */; };
+		84424F9E2121C77B00C62DEC /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F8F2121C77B00C62DEC /* MASLayoutConstraint.m */; };
+		84424F9F2121C77B00C62DEC /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F902121C77B00C62DEC /* NSArray+MASAdditions.m */; };
+		84424FA02121C77B00C62DEC /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F912121C77B00C62DEC /* View+MASAdditions.m */; };
+		84424FA12121C77B00C62DEC /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F942121C77B00C62DEC /* MASConstraint.m */; };
+		84424FA22121C77B00C62DEC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F962121C77B00C62DEC /* MASViewConstraint.m */; };
+		84424FA32121C77B00C62DEC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424F972121C77B00C62DEC /* MASViewAttribute.m */; };
+		84424FA42121C77B00C62DEC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84424F982121C77B00C62DEC /* README.md */; };
+		84424FA72121C7F800C62DEC /* FirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424FA62121C7F800C62DEC /* FirstPageViewController.m */; };
+		84424FAA2121C80600C62DEC /* SecondPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424FA92121C80600C62DEC /* SecondPageViewController.m */; };
+		84424FAD2121C81500C62DEC /* ThirdPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424FAC2121C81500C62DEC /* ThirdPageViewController.m */; };
+		84424FB02121C82200C62DEC /* CameraPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424FAF2121C82200C62DEC /* CameraPageViewController.m */; };
+		84424FB42121C8DC00C62DEC /* PdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424FB22121C8DC00C62DEC /* PdButton.m */; };
+		84424FBD2121CBC400C62DEC /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424FBC2121CBC400C62DEC /* UIButton+ImageTitleSpacing.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84424F4C2121C59200C62DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84424F2B2121C59000C62DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84424F322121C59000C62DEC;
+			remoteInfo = SnapChatTabbar;
+		};
+		84424F572121C59200C62DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84424F2B2121C59000C62DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84424F322121C59000C62DEC;
+			remoteInfo = SnapChatTabbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84424F332121C59000C62DEC /* SnapChatTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChatTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84424F362121C59000C62DEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84424F372121C59000C62DEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84424F3F2121C59200C62DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84424F422121C59200C62DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84424F442121C59200C62DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84424F452121C59200C62DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84424F4B2121C59200C62DEC /* SnapChatTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapChatTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84424F4F2121C59200C62DEC /* SnapChatTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapChatTabbarTests.m; sourceTree = "<group>"; };
+		84424F512121C59200C62DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84424F562121C59200C62DEC /* SnapChatTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapChatTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84424F5A2121C59200C62DEC /* SnapChatTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapChatTabbarUITests.m; sourceTree = "<group>"; };
+		84424F5C2121C59200C62DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84424F682121C64D00C62DEC /* LWXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWXMainViewController.m; sourceTree = "<group>"; };
+		84424F692121C64D00C62DEC /* LWXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWXMainViewController.h; sourceTree = "<group>"; };
+		84424F6D2121C72100C62DEC /* PdMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdMainViewController.h; sourceTree = "<group>"; };
+		84424F6E2121C72100C62DEC /* PdMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdMainViewController.m; sourceTree = "<group>"; };
+		84424F712121C72100C62DEC /* PdToolBarPostBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdToolBarPostBtn.h; sourceTree = "<group>"; };
+		84424F722121C72100C62DEC /* PdToolBarPostBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdToolBarPostBtn.m; sourceTree = "<group>"; };
+		84424F732121C72100C62DEC /* PdFirstPostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdFirstPostView.h; sourceTree = "<group>"; };
+		84424F742121C72100C62DEC /* PdMainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdMainTabBar.m; sourceTree = "<group>"; };
+		84424F752121C72100C62DEC /* PdMainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdMainTabBar.h; sourceTree = "<group>"; };
+		84424F762121C72100C62DEC /* PdFirstPostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdFirstPostView.m; sourceTree = "<group>"; };
+		84424F7D2121C77B00C62DEC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		84424F7F2121C77B00C62DEC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		84424F802121C77B00C62DEC /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		84424F812121C77B00C62DEC /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		84424F822121C77B00C62DEC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		84424F832121C77B00C62DEC /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		84424F842121C77B00C62DEC /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		84424F852121C77B00C62DEC /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		84424F862121C77B00C62DEC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		84424F872121C77B00C62DEC /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		84424F882121C77B00C62DEC /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		84424F892121C77B00C62DEC /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		84424F8A2121C77B00C62DEC /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		84424F8B2121C77B00C62DEC /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		84424F8C2121C77B00C62DEC /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		84424F8D2121C77B00C62DEC /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		84424F8E2121C77B00C62DEC /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		84424F8F2121C77B00C62DEC /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		84424F902121C77B00C62DEC /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		84424F912121C77B00C62DEC /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		84424F922121C77B00C62DEC /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		84424F932121C77B00C62DEC /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		84424F942121C77B00C62DEC /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		84424F952121C77B00C62DEC /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		84424F962121C77B00C62DEC /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		84424F972121C77B00C62DEC /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		84424F982121C77B00C62DEC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84424FA52121C7F800C62DEC /* FirstPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstPageViewController.h; sourceTree = "<group>"; };
+		84424FA62121C7F800C62DEC /* FirstPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPageViewController.m; sourceTree = "<group>"; };
+		84424FA82121C80600C62DEC /* SecondPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondPageViewController.h; sourceTree = "<group>"; };
+		84424FA92121C80600C62DEC /* SecondPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondPageViewController.m; sourceTree = "<group>"; };
+		84424FAB2121C81500C62DEC /* ThirdPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdPageViewController.h; sourceTree = "<group>"; };
+		84424FAC2121C81500C62DEC /* ThirdPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdPageViewController.m; sourceTree = "<group>"; };
+		84424FAE2121C82100C62DEC /* CameraPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraPageViewController.h; sourceTree = "<group>"; };
+		84424FAF2121C82200C62DEC /* CameraPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraPageViewController.m; sourceTree = "<group>"; };
+		84424FB22121C8DC00C62DEC /* PdButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdButton.m; sourceTree = "<group>"; };
+		84424FB32121C8DC00C62DEC /* PdButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdButton.h; sourceTree = "<group>"; };
+		84424FB52121C95C00C62DEC /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		84424FB72121CAEF00C62DEC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = SnapChatTabbar/PrefixHeader.pch; sourceTree = "<group>"; };
+		84424FBB2121CBC400C62DEC /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		84424FBC2121CBC400C62DEC /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84424F302121C59000C62DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84424F482121C59200C62DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84424F532121C59200C62DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84424F2A2121C59000C62DEC = {
+			isa = PBXGroup;
+			children = (
+				84424FB72121CAEF00C62DEC /* PrefixHeader.pch */,
+				84424FB52121C95C00C62DEC /* Header.h */,
+				84424F352121C59000C62DEC /* SnapChatTabbar */,
+				84424F4E2121C59200C62DEC /* SnapChatTabbarTests */,
+				84424F592121C59200C62DEC /* SnapChatTabbarUITests */,
+				84424F342121C59000C62DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84424F342121C59000C62DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84424F332121C59000C62DEC /* SnapChatTabbar.app */,
+				84424F4B2121C59200C62DEC /* SnapChatTabbarTests.xctest */,
+				84424F562121C59200C62DEC /* SnapChatTabbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84424F352121C59000C62DEC /* SnapChatTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				84424F7B2121C77B00C62DEC /* ThirdSDK */,
+				84424F6B2121C72100C62DEC /* Main-TabBar */,
+				84424F362121C59000C62DEC /* AppDelegate.h */,
+				84424F372121C59000C62DEC /* AppDelegate.m */,
+				84424F692121C64D00C62DEC /* LWXMainViewController.h */,
+				84424F682121C64D00C62DEC /* LWXMainViewController.m */,
+				84424F3F2121C59200C62DEC /* Assets.xcassets */,
+				84424F412121C59200C62DEC /* LaunchScreen.storyboard */,
+				84424F442121C59200C62DEC /* Info.plist */,
+				84424F452121C59200C62DEC /* main.m */,
+				84424FA52121C7F800C62DEC /* FirstPageViewController.h */,
+				84424FA62121C7F800C62DEC /* FirstPageViewController.m */,
+				84424FA82121C80600C62DEC /* SecondPageViewController.h */,
+				84424FA92121C80600C62DEC /* SecondPageViewController.m */,
+				84424FAB2121C81500C62DEC /* ThirdPageViewController.h */,
+				84424FAC2121C81500C62DEC /* ThirdPageViewController.m */,
+				84424FAE2121C82100C62DEC /* CameraPageViewController.h */,
+				84424FAF2121C82200C62DEC /* CameraPageViewController.m */,
+			);
+			path = SnapChatTabbar;
+			sourceTree = "<group>";
+		};
+		84424F4E2121C59200C62DEC /* SnapChatTabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				84424F4F2121C59200C62DEC /* SnapChatTabbarTests.m */,
+				84424F512121C59200C62DEC /* Info.plist */,
+			);
+			path = SnapChatTabbarTests;
+			sourceTree = "<group>";
+		};
+		84424F592121C59200C62DEC /* SnapChatTabbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84424F5A2121C59200C62DEC /* SnapChatTabbarUITests.m */,
+				84424F5C2121C59200C62DEC /* Info.plist */,
+			);
+			path = SnapChatTabbarUITests;
+			sourceTree = "<group>";
+		};
+		84424F6B2121C72100C62DEC /* Main-TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				84424F6C2121C72100C62DEC /* Controller */,
+				84424F6F2121C72100C62DEC /* View */,
+			);
+			path = "Main-TabBar";
+			sourceTree = "<group>";
+		};
+		84424F6C2121C72100C62DEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84424F6D2121C72100C62DEC /* PdMainViewController.h */,
+				84424F6E2121C72100C62DEC /* PdMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84424F6F2121C72100C62DEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84424F702121C72100C62DEC /* PdToolBarPostBtn */,
+				84424F732121C72100C62DEC /* PdFirstPostView.h */,
+				84424F742121C72100C62DEC /* PdMainTabBar.m */,
+				84424F752121C72100C62DEC /* PdMainTabBar.h */,
+				84424F762121C72100C62DEC /* PdFirstPostView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84424F702121C72100C62DEC /* PdToolBarPostBtn */ = {
+			isa = PBXGroup;
+			children = (
+				84424F712121C72100C62DEC /* PdToolBarPostBtn.h */,
+				84424F722121C72100C62DEC /* PdToolBarPostBtn.m */,
+			);
+			path = PdToolBarPostBtn;
+			sourceTree = "<group>";
+		};
+		84424F7B2121C77B00C62DEC /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				84424FB12121C8CB00C62DEC /* Utility */,
+				84424F7C2121C77B00C62DEC /* Masonry */,
+			);
+			path = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		84424F7C2121C77B00C62DEC /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				84424F7D2121C77B00C62DEC /* LICENSE */,
+				84424F7E2121C77B00C62DEC /* Masonry */,
+				84424F982121C77B00C62DEC /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		84424F7E2121C77B00C62DEC /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				84424F7F2121C77B00C62DEC /* MASCompositeConstraint.h */,
+				84424F802121C77B00C62DEC /* NSLayoutConstraint+MASDebugAdditions.m */,
+				84424F812121C77B00C62DEC /* MASConstraint+Private.h */,
+				84424F822121C77B00C62DEC /* MASLayoutConstraint.h */,
+				84424F832121C77B00C62DEC /* NSArray+MASShorthandAdditions.h */,
+				84424F842121C77B00C62DEC /* MASConstraintMaker.h */,
+				84424F852121C77B00C62DEC /* View+MASAdditions.h */,
+				84424F862121C77B00C62DEC /* NSArray+MASAdditions.h */,
+				84424F872121C77B00C62DEC /* MASUtilities.h */,
+				84424F882121C77B00C62DEC /* MASViewAttribute.h */,
+				84424F892121C77B00C62DEC /* ViewController+MASAdditions.m */,
+				84424F8A2121C77B00C62DEC /* MASViewConstraint.h */,
+				84424F8B2121C77B00C62DEC /* MASConstraint.h */,
+				84424F8C2121C77B00C62DEC /* NSLayoutConstraint+MASDebugAdditions.h */,
+				84424F8D2121C77B00C62DEC /* MASCompositeConstraint.m */,
+				84424F8E2121C77B00C62DEC /* MASConstraintMaker.m */,
+				84424F8F2121C77B00C62DEC /* MASLayoutConstraint.m */,
+				84424F902121C77B00C62DEC /* NSArray+MASAdditions.m */,
+				84424F912121C77B00C62DEC /* View+MASAdditions.m */,
+				84424F922121C77B00C62DEC /* View+MASShorthandAdditions.h */,
+				84424F932121C77B00C62DEC /* Masonry.h */,
+				84424F942121C77B00C62DEC /* MASConstraint.m */,
+				84424F952121C77B00C62DEC /* ViewController+MASAdditions.h */,
+				84424F962121C77B00C62DEC /* MASViewConstraint.m */,
+				84424F972121C77B00C62DEC /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		84424FB12121C8CB00C62DEC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				84424FBB2121CBC400C62DEC /* UIButton+ImageTitleSpacing.h */,
+				84424FBC2121CBC400C62DEC /* UIButton+ImageTitleSpacing.m */,
+				84424FB32121C8DC00C62DEC /* PdButton.h */,
+				84424FB22121C8DC00C62DEC /* PdButton.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84424F322121C59000C62DEC /* SnapChatTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84424F5F2121C59200C62DEC /* Build configuration list for PBXNativeTarget "SnapChatTabbar" */;
+			buildPhases = (
+				84424F2F2121C59000C62DEC /* Sources */,
+				84424F302121C59000C62DEC /* Frameworks */,
+				84424F312121C59000C62DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapChatTabbar;
+			productName = SnapChatTabbar;
+			productReference = 84424F332121C59000C62DEC /* SnapChatTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84424F4A2121C59200C62DEC /* SnapChatTabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84424F622121C59200C62DEC /* Build configuration list for PBXNativeTarget "SnapChatTabbarTests" */;
+			buildPhases = (
+				84424F472121C59200C62DEC /* Sources */,
+				84424F482121C59200C62DEC /* Frameworks */,
+				84424F492121C59200C62DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84424F4D2121C59200C62DEC /* PBXTargetDependency */,
+			);
+			name = SnapChatTabbarTests;
+			productName = SnapChatTabbarTests;
+			productReference = 84424F4B2121C59200C62DEC /* SnapChatTabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84424F552121C59200C62DEC /* SnapChatTabbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84424F652121C59200C62DEC /* Build configuration list for PBXNativeTarget "SnapChatTabbarUITests" */;
+			buildPhases = (
+				84424F522121C59200C62DEC /* Sources */,
+				84424F532121C59200C62DEC /* Frameworks */,
+				84424F542121C59200C62DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84424F582121C59200C62DEC /* PBXTargetDependency */,
+			);
+			name = SnapChatTabbarUITests;
+			productName = SnapChatTabbarUITests;
+			productReference = 84424F562121C59200C62DEC /* SnapChatTabbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84424F2B2121C59000C62DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = dd;
+				TargetAttributes = {
+					84424F322121C59000C62DEC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					84424F4A2121C59200C62DEC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 84424F322121C59000C62DEC;
+					};
+					84424F552121C59200C62DEC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 84424F322121C59000C62DEC;
+					};
+				};
+			};
+			buildConfigurationList = 84424F2E2121C59000C62DEC /* Build configuration list for PBXProject "SnapChatTabbar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84424F2A2121C59000C62DEC;
+			productRefGroup = 84424F342121C59000C62DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84424F322121C59000C62DEC /* SnapChatTabbar */,
+				84424F4A2121C59200C62DEC /* SnapChatTabbarTests */,
+				84424F552121C59200C62DEC /* SnapChatTabbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84424F312121C59000C62DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84424F992121C77B00C62DEC /* LICENSE in Resources */,
+				84424F432121C59200C62DEC /* LaunchScreen.storyboard in Resources */,
+				84424FA42121C77B00C62DEC /* README.md in Resources */,
+				84424F402121C59200C62DEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84424F492121C59200C62DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84424F542121C59200C62DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84424F2F2121C59000C62DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84424F782121C72100C62DEC /* PdToolBarPostBtn.m in Sources */,
+				84424F6A2121C64E00C62DEC /* LWXMainViewController.m in Sources */,
+				84424F9F2121C77B00C62DEC /* NSArray+MASAdditions.m in Sources */,
+				84424FB42121C8DC00C62DEC /* PdButton.m in Sources */,
+				84424F772121C72100C62DEC /* PdMainViewController.m in Sources */,
+				84424FA32121C77B00C62DEC /* MASViewAttribute.m in Sources */,
+				84424FAA2121C80600C62DEC /* SecondPageViewController.m in Sources */,
+				84424F462121C59200C62DEC /* main.m in Sources */,
+				84424F9E2121C77B00C62DEC /* MASLayoutConstraint.m in Sources */,
+				84424FA02121C77B00C62DEC /* View+MASAdditions.m in Sources */,
+				84424FA72121C7F800C62DEC /* FirstPageViewController.m in Sources */,
+				84424FBD2121CBC400C62DEC /* UIButton+ImageTitleSpacing.m in Sources */,
+				84424F9C2121C77B00C62DEC /* MASCompositeConstraint.m in Sources */,
+				84424FAD2121C81500C62DEC /* ThirdPageViewController.m in Sources */,
+				84424F792121C72100C62DEC /* PdMainTabBar.m in Sources */,
+				84424F9B2121C77B00C62DEC /* ViewController+MASAdditions.m in Sources */,
+				84424F7A2121C72100C62DEC /* PdFirstPostView.m in Sources */,
+				84424FB02121C82200C62DEC /* CameraPageViewController.m in Sources */,
+				84424F382121C59000C62DEC /* AppDelegate.m in Sources */,
+				84424F9D2121C77B00C62DEC /* MASConstraintMaker.m in Sources */,
+				84424F9A2121C77B00C62DEC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				84424FA12121C77B00C62DEC /* MASConstraint.m in Sources */,
+				84424FA22121C77B00C62DEC /* MASViewConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84424F472121C59200C62DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84424F502121C59200C62DEC /* SnapChatTabbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84424F522121C59200C62DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84424F5B2121C59200C62DEC /* SnapChatTabbarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84424F4D2121C59200C62DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84424F322121C59000C62DEC /* SnapChatTabbar */;
+			targetProxy = 84424F4C2121C59200C62DEC /* PBXContainerItemProxy */;
+		};
+		84424F582121C59200C62DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84424F322121C59000C62DEC /* SnapChatTabbar */;
+			targetProxy = 84424F572121C59200C62DEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84424F412121C59200C62DEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84424F422121C59200C62DEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84424F5D2121C59200C62DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84424F5E2121C59200C62DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84424F602121C59200C62DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SnapChatTabbar/PrefixHeader.pch";
+				INFOPLIST_FILE = SnapChatTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flydd.SnapChatTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84424F612121C59200C62DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SnapChatTabbar/PrefixHeader.pch";
+				INFOPLIST_FILE = SnapChatTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flydd.SnapChatTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84424F632121C59200C62DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapChatTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flydd.SnapChatTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapChatTabbar.app/SnapChatTabbar";
+			};
+			name = Debug;
+		};
+		84424F642121C59200C62DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapChatTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flydd.SnapChatTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapChatTabbar.app/SnapChatTabbar";
+			};
+			name = Release;
+		};
+		84424F662121C59200C62DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapChatTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flydd.SnapChatTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapChatTabbar;
+			};
+			name = Debug;
+		};
+		84424F672121C59200C62DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapChatTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flydd.SnapChatTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapChatTabbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84424F2E2121C59000C62DEC /* Build configuration list for PBXProject "SnapChatTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84424F5D2121C59200C62DEC /* Debug */,
+				84424F5E2121C59200C62DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84424F5F2121C59200C62DEC /* Build configuration list for PBXNativeTarget "SnapChatTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84424F602121C59200C62DEC /* Debug */,
+				84424F612121C59200C62DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84424F622121C59200C62DEC /* Build configuration list for PBXNativeTarget "SnapChatTabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84424F632121C59200C62DEC /* Debug */,
+				84424F642121C59200C62DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84424F652121C59200C62DEC /* Build configuration list for PBXNativeTarget "SnapChatTabbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84424F662121C59200C62DEC /* Debug */,
+				84424F672121C59200C62DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84424F2B2121C59000C62DEC /* Project object */;
+}
